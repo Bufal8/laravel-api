@@ -8,7 +8,7 @@ use App\Models\Project;
 
 class ProjectController extends Controller
 {
-    public function projectIndex(){
+    public function projectsIndex(){
 
         $projects = Project :: all();
 
